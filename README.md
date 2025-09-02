@@ -1,4 +1,4 @@
-MeowMatch isweb application where you can "swipe" through adorable cat images and find your purr-fect match.
+MeowMatch is a web application where you can "swipe" through adorable cat images and find your purr-fect match.
 
 **Features**
 - Swipe left or right to dislike or like cats
