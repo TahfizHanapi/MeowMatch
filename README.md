@@ -6,7 +6,7 @@ MeowMatch is a web application where you can "swipe" through adorable cat images
 - Summary page that shows all your liked cats
 
 **Tech Stack**
-- **Frontend:** HTML, CSS (Fredoka font, custom styling), JavaScript
+- **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python with Flask
 - **API:** https://cataas.com/
 - **Deployment:** cPanel (Python App), GitHub
