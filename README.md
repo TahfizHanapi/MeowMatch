@@ -12,6 +12,7 @@ MeowMatch is a web application where you can "swipe" through adorable cat images
 - **Deployment:** cPanel (Python App), GitHub
 
 **How to Run Locally**
+```bash
 git clone https://github.com/yourusername/MeowMatch.git
 cd MeowMatch
 pip install -r requirements.txt
