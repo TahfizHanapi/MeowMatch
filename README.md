@@ -1,13 +1,18 @@
-MeowMatch 🐱
+MeowMatch isweb application where you can "swipe" through adorable cat images and find your purr-fect match.
 
-A fun swipe-style Flask app to find your purr-fect cat! Built with Flask, HTML/CSS, and the Cataas API.
+**Features**
+- Swipe left or right to dislike or like cats
+- Uses real cat images from Cataas API
+- Summary page that shows all your liked cats
 
-## Features
-- Swipe cats left/right (like/dislike)
-- Summary of liked cats
-- Responsive design with animations
+**Tech Stack**
+- **Frontend:** HTML, CSS (Fredoka font, custom styling), JavaScript
+- **Backend:** Python with Flask
+- **API:** https://cataas.com/
+- **Deployment:** cPanel (Python App), GitHub
 
-## Run locally
-```bash
+**How to Run Locally**
+git clone https://github.com/yourusername/MeowMatch.git
+cd MeowMatch
 pip install -r requirements.txt
 python app.py
