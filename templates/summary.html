@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My Favorite Cats</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/summary.css') }}">
+    </head>
+
+    <body>
+        <h1>
+            <span class="highlight-1">Your</span><br>
+            <span class="highlight-2">Fur-vorites!</span><br>
+        </h1>   
+
+        <div class="cat-grid" id="summaryContainer"></div>
+
+        <div class="summary-note">
+            <p>These are the whiskered wonders that stole your heart.</p>
+            <button class="start-over-btn" onclick="restart()">Start Over</button>
+        </div>
+
+        <script src="static/js/summary.script.js"></script>        
+    </body>
+</html>

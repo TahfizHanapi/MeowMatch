@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paws & Preferences</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/slide.css') }}">
+    </head>
+
+    <body>
+        <div class="main-wrapper">
+            <div class="card-container">
+            <h1><span class="title-main">Paws</span><span class="amp"> & </span><br><span class="title-sub">Preferences</span></h1>
+            <div id="cat-container"></div>
+            <button onclick="showSummary()">Show Summary</button>
+            </div>
+        </div>
+
+        <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+        <script src="static/js/slide.script.js"></script>
+    </body>
+</html>
